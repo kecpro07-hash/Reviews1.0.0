@@ -1,38 +1,9 @@
 {
-  "last_updated": "07.03.2026 23:36",
+  "last_updated": "07.03.2026 23:37",
   "stats": {
-    "total": 4,
-    "average": 5.0,
-    "five_stars": 4
+    "total": 0,
+    "average": 0,
+    "five_stars": 0
   },
-  "reviews": [
-    {
-      "order_number": "GENERAL",
-      "rating": 5,
-      "text": "Круто",
-      "date": "07.03.2026 23:36",
-      "short_id": "BOSS"
-    },
-    {
-      "order_number": "GENERAL",
-      "rating": 5,
-      "text": "Все очень хорошо",
-      "date": "07.03.2026 23:22",
-      "short_id": "BOSS"
-    },
-    {
-      "order_number": "QQV40542",
-      "rating": 5,
-      "text": "",
-      "date": "07.03.2026 23:17",
-      "short_id": "BOSS"
-    },
-    {
-      "order_number": "OAF42743",
-      "rating": 5,
-      "text": "",
-      "date": "07.03.2026 23:15",
-      "short_id": "REG1"
-    }
-  ]
+  "reviews": []
 }
