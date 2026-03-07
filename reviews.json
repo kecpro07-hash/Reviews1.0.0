@@ -1,9 +1,17 @@
 {
-  "last_updated": "07.03.2026 21:13",
+  "last_updated": "07.03.2026 21:16",
   "stats": {
-    "total": 0,
-    "average": 0,
-    "five_stars": 0
+    "total": 1,
+    "average": 5.0,
+    "five_stars": 1
   },
-  "reviews": []
+  "reviews": [
+    {
+      "order_number": "KTQ24708",
+      "rating": 5,
+      "text": "",
+      "date": "07.03.2026 21:16",
+      "short_id": "41**"
+    }
+  ]
 }
