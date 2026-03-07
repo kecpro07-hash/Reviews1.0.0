@@ -262,7 +262,7 @@
                             'Отзыв';
                         
                         // ID покупателя
-                        const customerId = review.short_id || '**';
+                        const customerId = review.short_id;
                         
                         // Проверяем наличие текста
                         const hasText = review.text && review.text.trim() !== '' && review.text !== 'Без текстового отзыва';
