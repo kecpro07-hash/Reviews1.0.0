@@ -1,11 +1,18 @@
 {
-  "last_updated": "07.03.2026 23:15",
+  "last_updated": "07.03.2026 23:17",
   "stats": {
-    "total": 1,
+    "total": 2,
     "average": 5.0,
-    "five_stars": 1
+    "five_stars": 2
   },
   "reviews": [
+    {
+      "order_number": "QQV40542",
+      "rating": 5,
+      "text": "",
+      "date": "07.03.2026 23:17",
+      "short_id": "BOSS"
+    },
     {
       "order_number": "OAF42743",
       "rating": 5,
