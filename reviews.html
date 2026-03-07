@@ -7,15 +7,37 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            
+            /* ===== ВАША КАРТИНКА ===== */
+            background: url('унч.png') no-repeat center center fixed;
+            background-size: cover;
+            
+            /* Добавляем легкое затемнение для лучшей читаемости */
+            position: relative;
             min-height: 100vh;
             padding: 20px;
             margin: 0;
         }
+        
+        /* Полупрозрачный слой поверх картинки для читаемости текста */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.4); /* Немного затемняем */
+            z-index: 0;
+        }
+        
         .container {
             max-width: 800px;
             margin: 0 auto;
+            position: relative;
+            z-index: 1; /* Чтобы контент был поверх затемнения */
         }
+        
         .header {
             text-align: center;
             color: white;
@@ -24,23 +46,25 @@
         .header h1 {
             font-size: 32px;
             margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
         .header p {
             font-size: 16px;
-            opacity: 0.9;
+            opacity: 0.95;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
         .stats {
-            background: rgba(255,255,255,0.1);
+            background: rgba(255,255,255,0.15);
             border-radius: 15px;
             padding: 20px;
             margin-bottom: 20px;
             color: white;
             display: flex;
             justify-content: space-around;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(5px);
             flex-wrap: wrap;
             gap: 15px;
+            border: 1px solid rgba(255,255,255,0.2);
         }
         .stat-item {
             text-align: center;
@@ -52,7 +76,7 @@
         }
         .stat-label {
             font-size: 14px;
-            opacity: 0.8;
+            opacity: 0.9;
         }
         .reviews-list {
             display: flex;
@@ -60,15 +84,18 @@
             gap: 15px;
         }
         .review-card {
-            background: white;
+            background: rgba(255, 255, 255, 0.95);
             border-radius: 20px;
             padding: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
             transition: transform 0.2s;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255,255,255,0.3);
         }
         .review-card:hover {
             transform: translateY(-2px);
-            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+            background: rgba(255, 255, 255, 1);
         }
         .review-header {
             display: flex;
@@ -76,7 +103,7 @@
             align-items: center;
             margin-bottom: 15px;
             padding-bottom: 10px;
-            border-bottom: 1px solid #f0f0f0;
+            border-bottom: 1px solid #e0e0e0;
             flex-wrap: wrap;
             gap: 10px;
         }
@@ -93,6 +120,7 @@
             border-radius: 20px;
             font-size: 14px;
             font-weight: 500;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
         .customer-id {
             background: #f0f0f0;
@@ -104,7 +132,7 @@
             font-weight: 500;
         }
         .review-date {
-            color: #999;
+            color: #666;
             font-size: 13px;
         }
         .review-text {
@@ -115,7 +143,7 @@
             word-break: break-word;
         }
         .no-text {
-            color: #999;
+            color: #666;
             font-style: italic;
             margin-bottom: 15px;
             font-size: 14px;
@@ -127,14 +155,17 @@
         .star {
             color: #FFD700;
             font-size: 20px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
         }
         .star.inactive {
             color: #ddd;
+            text-shadow: none;
         }
         .loading {
             text-align: center;
             color: white;
             padding: 40px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
         .loading-spinner {
             width: 50px;
@@ -149,17 +180,19 @@
             to { transform: rotate(360deg); }
         }
         .error {
-            background: #ff4444;
+            background: rgba(255, 68, 68, 0.9);
             color: white;
             padding: 20px;
             border-radius: 10px;
             text-align: center;
+            backdrop-filter: blur(5px);
         }
         .last-updated {
             text-align: center;
-            color: rgba(255,255,255,0.6);
+            color: rgba(255,255,255,0.8);
             font-size: 12px;
             margin-top: 20px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
         }
     </style>
 </head>
@@ -228,7 +261,7 @@
                             `Заказ ${review.order_number}` : 
                             'Отзыв';
                         
-                        // ID покупателя (первые 2 символа видны, остальные скрыты)
+                        // ID покупателя
                         const customerId = review.short_id || '**';
                         
                         // Проверяем наличие текста
@@ -245,7 +278,7 @@
                                 </div>
                                 ${hasText ? 
                                     `<div class="review-text">${review.text}</div>` : 
-                                    `<div class="no-text"> </div>`
+                                    `<div class="no-text">💬 Без текстового отзыва</div>`
                                 }
                                 <div class="rating">${stars}</div>
                             </div>
@@ -283,10 +316,9 @@
         if (tg) {
             tg.expand();
             tg.ready();
-            tg.setHeaderColor('#667eea');
-            tg.setBackgroundColor('#667eea');
+            tg.setHeaderColor('#000000');
+            tg.setBackgroundColor('#000000');
             
-            // Добавляем кнопку назад
             const backButton = tg.BackButton;
             backButton.show();
             backButton.onClick(function() {
