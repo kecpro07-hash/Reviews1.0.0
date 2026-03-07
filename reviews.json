@@ -1,11 +1,18 @@
 {
-  "last_updated": "07.03.2026 23:40",
+  "last_updated": "07.03.2026 23:41",
   "stats": {
-    "total": 1,
-    "average": 5.0,
+    "total": 2,
+    "average": 4.0,
     "five_stars": 1
   },
   "reviews": [
+    {
+      "order_number": "GENERAL",
+      "rating": 3,
+      "text": "Мне не понравилось",
+      "date": "07.03.2026 23:40",
+      "short_id": "2HUI"
+    },
     {
       "order_number": "WKL65329",
       "rating": 5,
