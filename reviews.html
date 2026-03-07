@@ -245,10 +245,6 @@
                                 <div class="stat-value">${data.stats.average}</div>
                                 <div class="stat-label">средний рейтинг</div>
                             </div>
-                            <div class="stat-item">
-                                <div class="stat-value">${data.stats.five_stars}</div>
-                                <div class="stat-label">оценок 5⭐</div>
-                            </div>
                         </div>
                         <div class="reviews-list">
                     `;
@@ -269,20 +265,20 @@
                         const customerId = review.short_id || 'НЕТ ID';
                         
                         // Проверяем наличие текста
-                        const hasText = review.text && review.text.trim() !== '' && review.text !== 'Без текстового отзыва';
+                        const hasText = review.text && review.text.trim() !== '' && review.text !== '';
                         
                         html += `
                             <div class="review-card">
                                 <div class="review-header">
                                     <div class="order-info">
                                         <span class="order-number">${orderDisplay}</span>
-                                        <span class="customer-id">🆔 ${customerId}</span>
+                                        <span class="customer-id">ID ${customerId}</span>
                                     </div>
                                     <span class="review-date">${review.date}</span>
                                 </div>
                                 ${hasText ? 
                                     `<div class="review-text">${review.text}</div>` : 
-                                    `<div class="no-text">💬 Без текстового отзыва</div>`
+                                    `<div class="no-text"> </div>`
                                 }
                                 <div class="rating">${stars}</div>
                             </div>
