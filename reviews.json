@@ -1,24 +1,9 @@
 {
-  "last_updated": "07.03.2026 21:18",
+  "last_updated": "07.03.2026 21:35",
   "stats": {
-    "total": 2,
-    "average": 5.0,
-    "five_stars": 2
+    "total": 0,
+    "average": 0,
+    "five_stars": 0
   },
-  "reviews": [
-    {
-      "order_number": "AZV79642",
-      "rating": 5,
-      "text": "",
-      "date": "07.03.2026 21:18",
-      "short_id": "41**"
-    },
-    {
-      "order_number": "KTQ24708",
-      "rating": 5,
-      "text": "",
-      "date": "07.03.2026 21:16",
-      "short_id": "41**"
-    }
-  ]
+  "reviews": []
 }
