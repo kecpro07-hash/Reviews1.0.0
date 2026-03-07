@@ -1,24 +1,9 @@
 {
-  "last_updated": "07.03.2026 22:52",
+  "last_updated": "07.03.2026 23:03",
   "stats": {
-    "total": 2,
-    "average": 4.5,
-    "five_stars": 1
+    "total": 0,
+    "average": 0,
+    "five_stars": 0
   },
-  "reviews": [
-    {
-      "order_number": "LLS94544",
-      "rating": 5,
-      "text": "",
-      "date": "07.03.2026 22:52",
-      "short_id": "QQ**"
-    },
-    {
-      "order_number": "TZQ41095",
-      "rating": 4,
-      "text": "очень хорошая работа, всё выполнено быстро",
-      "date": "07.03.2026 21:47",
-      "short_id": "QQ**"
-    }
-  ]
+  "reviews": []
 }
