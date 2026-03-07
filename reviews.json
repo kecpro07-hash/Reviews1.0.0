@@ -1,11 +1,18 @@
 {
-  "last_updated": "07.03.2026 23:22",
+  "last_updated": "07.03.2026 23:36",
   "stats": {
-    "total": 3,
+    "total": 4,
     "average": 5.0,
-    "five_stars": 3
+    "five_stars": 4
   },
   "reviews": [
+    {
+      "order_number": "GENERAL",
+      "rating": 5,
+      "text": "Круто",
+      "date": "07.03.2026 23:36",
+      "short_id": "BOSS"
+    },
     {
       "order_number": "GENERAL",
       "rating": 5,
