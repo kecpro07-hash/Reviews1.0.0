@@ -8,18 +8,17 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             
-            /* ===== ВАША КАРТИНКА ===== */
+            /* Ваша картинка */
             background: url('унч.png') no-repeat center center fixed;
             background-size: cover;
             
-            /* Добавляем легкое затемнение для лучшей читаемости */
             position: relative;
             min-height: 100vh;
             padding: 20px;
             margin: 0;
         }
         
-        /* Полупрозрачный слой поверх картинки для читаемости текста */
+        /* Полупрозрачный слой поверх картинки */
         body::before {
             content: '';
             position: fixed;
@@ -27,7 +26,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(0, 0, 0, 0.4); /* Немного затемняем */
+            background: rgba(0, 0, 0, 0.4);
             z-index: 0;
         }
         
@@ -35,7 +34,7 @@
             max-width: 800px;
             margin: 0 auto;
             position: relative;
-            z-index: 1; /* Чтобы контент был поверх затемнения */
+            z-index: 1;
         }
         
         .header {
@@ -113,8 +112,10 @@
             align-items: center;
             flex-wrap: wrap;
         }
+        
+        /* ОРАНЖЕВЫЙ СТИЛЬ ДЛЯ ОБЕИХ ПЛАШЕК */
         .order-number {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #FF8C00 0%, #FF4500 100%);
             color: white;
             padding: 6px 12px;
             border-radius: 20px;
@@ -122,15 +123,18 @@
             font-weight: 500;
             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
+        
         .customer-id {
-            background: #f0f0f0;
-            color: #333;
+            background: linear-gradient(135deg, #FF8C00 0%, #FF4500 100%);
+            color: white;
             padding: 6px 12px;
             border-radius: 20px;
             font-size: 14px;
             font-family: monospace;
             font-weight: 500;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
+        
         .review-date {
             color: #666;
             font-size: 13px;
@@ -261,8 +265,8 @@
                             `Заказ ${review.order_number}` : 
                             'Отзыв';
                         
-                        // ID покупателя
-                        const customerId = review.short_id;
+                        // ID покупателя - ПОЛНЫЙ, без звездочек
+                        const customerId = review.short_id || 'НЕТ ID';
                         
                         // Проверяем наличие текста
                         const hasText = review.text && review.text.trim() !== '' && review.text !== 'Без текстового отзыва';
@@ -316,8 +320,8 @@
         if (tg) {
             tg.expand();
             tg.ready();
-            tg.setHeaderColor('#000000');
-            tg.setBackgroundColor('#000000');
+            tg.setHeaderColor('#FF8C00');
+            tg.setBackgroundColor('#FF8C00');
             
             const backButton = tg.BackButton;
             backButton.show();
