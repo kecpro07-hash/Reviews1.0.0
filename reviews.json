@@ -1,24 +1,9 @@
 {
-  "last_updated": "08.03.2026 19:24",
+  "last_updated": "08.03.2026 19:44",
   "stats": {
-    "total": 2,
-    "average": 4.0,
-    "five_stars": 1
+    "total": 0,
+    "average": 0,
+    "five_stars": 0
   },
-  "reviews": [
-    {
-      "order_number": "GENERAL",
-      "rating": 5,
-      "text": "Круто",
-      "date": "08.03.2026 19:24",
-      "short_id": "WQ76"
-    },
-    {
-      "order_number": "WRR01716",
-      "rating": 3,
-      "text": "",
-      "date": "08.03.2026 19:22",
-      "short_id": "WQ76"
-    }
-  ]
+  "reviews": []
 }
