@@ -1,9 +1,17 @@
 {
-  "last_updated": "08.03.2026 20:41",
+  "last_updated": "08.03.2026 20:52",
   "stats": {
-    "total": 0,
-    "average": 0,
+    "total": 1,
+    "average": 1.0,
     "five_stars": 0
   },
-  "reviews": []
+  "reviews": [
+    {
+      "order_number": "WDB35089",
+      "rating": 1,
+      "text": "Пропустить",
+      "date": "08.03.2026 20:52",
+      "short_id": "3C9L"
+    }
+  ]
 }
