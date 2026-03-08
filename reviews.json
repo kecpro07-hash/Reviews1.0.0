@@ -1,11 +1,18 @@
 {
-  "last_updated": "08.03.2026 16:44",
+  "last_updated": "08.03.2026 18:58",
   "stats": {
-    "total": 2,
-    "average": 4.0,
+    "total": 3,
+    "average": 3.7,
     "five_stars": 1
   },
   "reviews": [
+    {
+      "order_number": "JKS43053",
+      "rating": 3,
+      "text": "Заебомба",
+      "date": "08.03.2026 18:58",
+      "short_id": "09QY"
+    },
     {
       "order_number": "GENERAL",
       "rating": 3,
