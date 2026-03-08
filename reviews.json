@@ -1,9 +1,17 @@
 {
-  "last_updated": "08.03.2026 10:32",
+  "last_updated": "08.03.2026 11:11",
   "stats": {
-    "total": 0,
-    "average": 0,
+    "total": 1,
+    "average": 2.0,
     "five_stars": 0
   },
-  "reviews": []
+  "reviews": [
+    {
+      "order_number": "OMX91634",
+      "rating": 2,
+      "text": "",
+      "date": "08.03.2026 11:11",
+      "short_id": "RIML"
+    }
+  ]
 }
