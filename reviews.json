@@ -1,17 +1,9 @@
 {
-  "last_updated": "07.03.2026 23:57",
+  "last_updated": "08.03.2026 10:32",
   "stats": {
-    "total": 1,
-    "average": 5.0,
-    "five_stars": 1
+    "total": 0,
+    "average": 0,
+    "five_stars": 0
   },
-  "reviews": [
-    {
-      "order_number": "TFT48116",
-      "rating": 5,
-      "text": "",
-      "date": "07.03.2026 23:57",
-      "short_id": "FKUN"
-    }
-  ]
+  "reviews": []
 }
