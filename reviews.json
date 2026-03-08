@@ -1,24 +1,9 @@
 {
-  "last_updated": "08.03.2026 11:18",
+  "last_updated": "08.03.2026 11:42",
   "stats": {
-    "total": 2,
-    "average": 3.5,
-    "five_stars": 1
+    "total": 0,
+    "average": 0,
+    "five_stars": 0
   },
-  "reviews": [
-    {
-      "order_number": "OTM03883",
-      "rating": 5,
-      "text": "",
-      "date": "08.03.2026 11:18",
-      "short_id": "RIML"
-    },
-    {
-      "order_number": "OMX91634",
-      "rating": 2,
-      "text": "",
-      "date": "08.03.2026 11:11",
-      "short_id": "RIML"
-    }
-  ]
+  "reviews": []
 }
