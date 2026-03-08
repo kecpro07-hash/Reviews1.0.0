@@ -1,17 +1,9 @@
 {
-  "last_updated": "08.03.2026 20:33",
+  "last_updated": "08.03.2026 20:41",
   "stats": {
-    "total": 1,
-    "average": 5.0,
-    "five_stars": 1
+    "total": 0,
+    "average": 0,
+    "five_stars": 0
   },
-  "reviews": [
-    {
-      "order_number": "YVL96740",
-      "rating": 5,
-      "text": "",
-      "date": "08.03.2026 20:33",
-      "short_id": "QE0V"
-    }
-  ]
+  "reviews": []
 }
