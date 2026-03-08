@@ -1,11 +1,18 @@
 {
-  "last_updated": "08.03.2026 20:04",
+  "last_updated": "08.03.2026 20:07",
   "stats": {
-    "total": 2,
-    "average": 3.5,
+    "total": 3,
+    "average": 2.7,
     "five_stars": 0
   },
   "reviews": [
+    {
+      "order_number": "WSF68069",
+      "rating": 1,
+      "text": "",
+      "date": "08.03.2026 20:07",
+      "short_id": "2OE7"
+    },
     {
       "order_number": "GENERAL",
       "rating": 3,
