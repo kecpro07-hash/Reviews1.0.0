@@ -1,24 +1,9 @@
 {
-  "last_updated": "08.03.2026 23:01",
+  "last_updated": "08.03.2026 23:19",
   "stats": {
-    "total": 2,
-    "average": 4.5,
-    "five_stars": 1
+    "total": 0,
+    "average": 0,
+    "five_stars": 0
   },
-  "reviews": [
-    {
-      "order_number": "GQT00544",
-      "rating": 4,
-      "text": "Беб",
-      "date": "08.03.2026 23:01",
-      "short_id": "OQ39"
-    },
-    {
-      "order_number": "PLJ22186",
-      "rating": 5,
-      "text": "",
-      "date": "08.03.2026 23:00",
-      "short_id": "OQ39"
-    }
-  ]
+  "reviews": []
 }
