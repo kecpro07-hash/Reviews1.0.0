@@ -1,9 +1,17 @@
 {
-  "last_updated": "09.03.2026 16:02",
+  "last_updated": "09.03.2026 16:05",
   "stats": {
-    "total": 0,
-    "average": 0,
-    "five_stars": 0
+    "total": 1,
+    "average": 5.0,
+    "five_stars": 1
   },
-  "reviews": []
+  "reviews": [
+    {
+      "order_number": "RRF45567",
+      "rating": 5,
+      "text": "",
+      "date": "09.03.2026 16:05",
+      "short_id": "CZ77"
+    }
+  ]
 }
