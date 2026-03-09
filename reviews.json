@@ -1,11 +1,18 @@
 {
-  "last_updated": "09.03.2026 16:09",
+  "last_updated": "09.03.2026 16:21",
   "stats": {
-    "total": 1,
+    "total": 2,
     "average": 5.0,
-    "five_stars": 1
+    "five_stars": 2
   },
   "reviews": [
+    {
+      "order_number": "VDB09820",
+      "rating": 5,
+      "text": "",
+      "date": "09.03.2026 16:21",
+      "short_id": "CZ77"
+    },
     {
       "order_number": "RRF45567",
       "rating": 5,
