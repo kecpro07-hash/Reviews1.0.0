@@ -1,9 +1,17 @@
 {
-  "last_updated": "09.03.2026 12:49",
+  "last_updated": "09.03.2026 12:58",
   "stats": {
-    "total": 0,
-    "average": 0,
-    "five_stars": 0
+    "total": 1,
+    "average": 5.0,
+    "five_stars": 1
   },
-  "reviews": []
+  "reviews": [
+    {
+      "order_number": "NBO62924",
+      "rating": 5,
+      "text": "",
+      "date": "09.03.2026 12:58",
+      "short_id": "7EZK"
+    }
+  ]
 }
