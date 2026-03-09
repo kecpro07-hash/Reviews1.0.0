@@ -1,17 +1,9 @@
 {
-  "last_updated": "09.03.2026 14:34",
+  "last_updated": "09.03.2026 14:38",
   "stats": {
-    "total": 1,
-    "average": 5.0,
-    "five_stars": 1
+    "total": 0,
+    "average": 0,
+    "five_stars": 0
   },
-  "reviews": [
-    {
-      "order_number": "HFH57912",
-      "rating": 5,
-      "text": "",
-      "date": "09.03.2026 14:34",
-      "short_id": "48WG"
-    }
-  ]
+  "reviews": []
 }
