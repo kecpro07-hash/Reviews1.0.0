@@ -1,24 +1,9 @@
 {
-  "last_updated": "09.03.2026 13:03",
+  "last_updated": "09.03.2026 14:08",
   "stats": {
-    "total": 2,
-    "average": 4.0,
-    "five_stars": 1
+    "total": 0,
+    "average": 0,
+    "five_stars": 0
   },
-  "reviews": [
-    {
-      "order_number": "LMQ59805",
-      "rating": 3,
-      "text": "",
-      "date": "09.03.2026 13:03",
-      "short_id": "7EZK"
-    },
-    {
-      "order_number": "NBO62924",
-      "rating": 5,
-      "text": "",
-      "date": "09.03.2026 12:58",
-      "short_id": "7EZK"
-    }
-  ]
+  "reviews": []
 }
