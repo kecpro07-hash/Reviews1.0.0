@@ -1,11 +1,18 @@
 {
-  "last_updated": "13.03.2026 21:33",
+  "last_updated": "13.03.2026 21:45",
   "stats": {
-    "total": 3,
+    "total": 4,
     "average": 5.0,
-    "five_stars": 3
+    "five_stars": 4
   },
   "reviews": [
+    {
+      "order_number": "ADM20910",
+      "rating": 5,
+      "text": "",
+      "date": "13.03.2026 21:45",
+      "short_id": "PR1NCESS"
+    },
     {
       "order_number": "GMZ80491",
       "rating": 5,
