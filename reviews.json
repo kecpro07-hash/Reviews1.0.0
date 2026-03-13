@@ -1,11 +1,18 @@
 {
-  "last_updated": "13.03.2026 23:12",
+  "last_updated": "13.03.2026 23:38",
   "stats": {
-    "total": 5,
+    "total": 6,
     "average": 5.0,
-    "five_stars": 5
+    "five_stars": 6
   },
   "reviews": [
+    {
+      "order_number": "ANB25532",
+      "rating": 5,
+      "text": "",
+      "date": "13.03.2026 23:38",
+      "short_id": "PR1NCESS"
+    },
     {
       "order_number": "PET01333",
       "rating": 5,
