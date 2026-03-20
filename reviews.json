@@ -1,11 +1,18 @@
 {
-  "last_updated": "19.03.2026 08:03",
+  "last_updated": "20.03.2026 11:34",
   "stats": {
-    "total": 6,
+    "total": 7,
     "average": 5.0,
-    "five_stars": 6
+    "five_stars": 7
   },
   "reviews": [
+    {
+      "order_number": "ZTU62469",
+      "rating": 5,
+      "text": "",
+      "date": "20.03.2026 11:34",
+      "short_id": "DPFY"
+    },
     {
       "order_number": "ANB25532",
       "rating": 5,
